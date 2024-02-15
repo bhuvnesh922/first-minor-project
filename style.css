@@ -1,0 +1,43 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #092635;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  
+}
+p{
+  font-size: 100px;
+  font-weight: 600;
+}
+.img{
+  height: 200px;
+  border-radius: 15px;
+  position: absolut;
+  rotate: 10deg;
+}
+.btn{
+  border-radius: 30px;
+  padding: 3px;
+  border: 1px solid black;
+}
+#btn2{
+  background-color: orange;
+  color: white;
+}
